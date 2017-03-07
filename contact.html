@@ -1,0 +1,200 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>Moony - Contact</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" type="" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+    <link href="style.css" rel="stylesheet">
+    <script src="script.js"></script>
+</head>
+
+<body>
+    <div class="content">
+        <header>
+
+        </header>
+        <!--centre-->
+        <div class="container" id="middle">
+            <div class="row section">
+                <h1><span class="glyphicon glyphicon-star"></span> Nos restaurants</h1>
+            </div>
+            <div class="row">
+                <div class="col-md-6 col-sm-6">
+                    <img class="img-responsive" src="img/biarritz4.jpg" alt="" />
+                    <div class="contact">
+
+                        <h4> BORDEAUX</h4>
+                        <p>12 Rue du Port Vieux, 64200 Biarritz <br />05 00 00 00 00</p>
+                        <button type="button" class="btn btn-default" data-toggle="modal" data-target="#myModal">HORAIRES</button>
+
+                        <div class="modal fade" id="myModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+                        <div class="modal-dialog" role="document">
+                            <div class="modal-content">
+                            <div class="modal-header">
+                                <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+                                <h4 class="modal-title" id="myModalLabel">Horaires / Opening Hours</h4>
+                            </div>
+                            <div class="modal-body">
+                                <h4>Eté / Summer time - 7/7</h4>
+                                <p>Ouvert tous les jours de 11h à 22h<br />
+                                    <em>Open every day from 11am to 22pm</em></p>
+                                
+                                <h4>Hiver / Winter time</h4>
+                                <p>Lundi, mardi / Mon. & Tues.<br />
+                                    <em>Fermé (sauf vacance scolaires) / Closed</em></p>
+                                
+                                <p>Mercredi, Jeudi, Dimanche / <em>Wed., Thurs. & Sun.</em><br />
+                                    Ouvert de 12h à 19h / <em>Open from 12h to 19h </em> </p>
+
+                                <p>Vendredi, Samedi / <em>Fri. & Satur.</em><br />
+                                    Ouvert de 12h à 22h / <em>Open from 12h to 22h </em></p>
+
+                            </div>
+                            <div class="modal-footer">
+                                <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+                                
+                            </div>
+                            </div>
+                        </div>
+                        </div>
+
+
+                    </div>
+
+                </div>
+                <div class="col-md-6 col-sm-6">
+                    <img class="img-responsive" src="img/biarritz4.jpg" alt="" />
+
+                    <div class="contact">
+                        <h4> BORDEAUX</h4>
+                        <p>12 Rue du Port Vieux, 64200 Biarritz <br />05 00 00 00 00</p>
+                        <button type="button" class="btn btn-default">HORAIRES</button>
+                    </div>
+                </div>
+            </div>
+
+            <!-- contactez nous-->
+            <div class="row">
+                <div class="col-md-10  col-sm-12">
+                    <h3>POUR NOUS CONTACTER</h3>
+                </div>
+            </div>
+
+            <!-- FORMULAIRE-->
+            <div class="container">
+                 <form class="form-horizontal">
+                    <div class="form-group">
+                            <label class="control-label col-md-2" for="sel1">Votre restaurant:</label>
+                            <div class="col-md-4">
+                                <select class="form-control" id="sel1">
+                                    <option>Bordeaux</option>
+                                    <option>Biarritz</option>
+                                </select>
+                            </div>
+                    </div>
+
+                    <div class="form-group">
+                        <label class="control-label col-md-2" for="nom">Nom:</label>
+                        <div class="col-md-4">
+                        <input type="nom" class="form-control" id="nom" placeholder="Votre nom">
+                        </div>
+                    </div>
+
+                    <div class="form-group">
+                        <label class="control-label col-md-2" for="nom">Prénom:</label>
+                        <div class="col-md-4">
+                        <input type="prenom" class="form-control" id="prenom" placeholder="Votre prénom">
+                        </div>
+                    </div>
+
+                    <div class="form-group">
+                        <label class="control-label col-md-2" for="email">Email:</label>
+                        <div class="col-md-4">
+                        <input type="email" class="form-control" id="email" placeholder="Votre email">
+                        </div>
+                    </div>
+
+                    <div class="form-group">
+                        <label class="control-label col-md-2" for="comment">Votre message:</label>
+                        <div class="col-md-8">
+                        <textarea class="form-control" rows="5" id="comment"></textarea>
+                        </div>
+                    </div>
+
+                    <div class="form-group">
+                        <div class="col-md-offset-2 col-md-10">
+                        <button type="submit" class="btn btn-default">Submit</button>
+                        </div>
+                    </div>
+                    </form>
+
+            </div>
+        </div>
+        <!--FIN centre-->
+
+
+
+
+        <!--pied de page .............................................................................................. -->
+
+        <footer class="container-fluid">
+            <div class="container fond_pied">
+
+                <div class="row">
+                    <!--address + formulaire -->
+                    <div class="col-md-4  col-sm-12 ville">
+                        BORDEAUX | BIARRITZ
+                    </div>
+                    <div class="col-md-4  col-sm-12 text-center icon_align align_RS">
+
+                        <img class="img-responsive tailleRS" src="img/facebook.png" />
+                        <img class="img-responsive tailleRS" src="img/g+.png" />
+                        <img class="img-responsive tailleRS" src="img/tripadvisor.png" />
+                        <img class="img-responsive tailleRS" src="img/autre.png" />
+
+                    </div>
+
+                    <div class="col-md-3 col-md-offset-1 col-sm-12 ">
+                        <form class="form-inline">
+                            <div class="form-group">
+                                <label for="exampleInputName2">inscription à la newsletter</label><br />
+                                <input type="text" class="form-control" id="email" placeholder="Votre email">
+                                <button type="submit" class="btn btn-default">OK</button>
+                            </div>
+                        </form>
+                    </div>
+                </div>
+                <!-- FIN address + formulaire -->
+
+                <!-- FIN reseaux sociaux -->
+
+                <div class="row">
+                    <!-- séparateur -->
+                    <div class="col-md-12 col-sm-12 ">
+                        <hr />
+                    </div>
+                </div>
+                <!-- FIN -->
+                <div class="row mention">
+                    <!-- séparateur -->
+                    <div class="col-md-12 col-sm-12 text-right">
+                        <a href="#">Mentions légales</a> | @wilders-WCS 2017
+                    </div>
+                </div>
+                <!-- FIN -->
+
+
+            </div>
+            <!-- FIN container fond_pied -->
+        </footer>
+    </div>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+    <!-- Include all compiled plugins (below), or include individual files as needed -->
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa"
+        crossorigin="anonymous"></script>
+
+</body>
+
+</html>
