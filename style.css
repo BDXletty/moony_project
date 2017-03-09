@@ -1,5 +1,6 @@
 html {
     font-family: Arial, sans-serif;
+    height: 100%;
 }
 body {
     height: 100%;
@@ -19,15 +20,34 @@ a, a:hover, a:active, a:visited {
     background: -o-linear-gradient( right, #be1742, #f8f6f4);
     background:  linear-gradient( to right, #be1742, #f8f6f4);
     color: white;
-    font-size: 2em;
+    font-size: 1.5em;
     font-weight: bold;
-    padding: 3px;
+    text-transform: uppercase;
+    padding: 1px;
+    margin-bottom: 20px;
+}
+h2 {
+     color: #be1742;
+     text-transform: uppercase;
+}
+h3 {
+}
+h4 {
+    background-color: #312926;
+    padding: 3px 5px;
+    color : white;
+    font-size: 1.2em;
+    font-weight: bold;
+    text-transform: uppercase;     
+    
+}
+strong {
+    font-weight: bold;
+    color: #be1742;
 }
 
 /* ACCUEIL*/
-.description {
-    color: #f96d06;
-}
+
 .description p {
     font-size: 16px;
     font-style: italic;
@@ -37,32 +57,40 @@ a, a:hover, a:active, a:visited {
    font-weight: bold;
     text-transform: uppercase;
 }
+.labels {
+    display: flex;
+    padding-top: 15px;
+}
 .logoHomemade {
     margin-left: auto;
     margin-right: auto;
 }
-.homemade {
-    background-color: #a6a29f;
-    color: white;
-    font-size: 30px;
+.presentation {
+    border-bottom: 1px solid #312926;
+    margin-bottom : 15px;
+}
+.presentation p {
+    padding-top: 20px;
+    font-size: 1.2em;
+}
+.livraison {
+    background-color:white;/*#a6a29f*/
+    border: 1px solid #312926; 
+    color: #312926;
+    font-size: 20px;
     font-weight: bold;
     text-align: center;
     padding: 15px 0; 
-    margin-top: 15px;
+    margin-top: 30px;
 }
-.homemade p {
-    font-size: 40px;
+.livraison p {
+    font-size: 25px;
     padding: 0;
     margin: 0;
 }
-h3{
-    background-color: #312926;
-    color : white;
-    font-size: 1.2em;
-    font-weight: bold;
-    padding: 3px;
-}
-/* FOOTER */
+
+/* -------------------FOOTER----------------------- */
+
 footer {
      background-color: #312926; 
 }
@@ -100,8 +128,21 @@ hr {
 .legend {
     color: #70b62f;
 }
+.prix {
+    font-weight: bold;
+    background-color: #70b62f;
+    padding: 2px;
+}
 
-
+/* PAGE CONCEPT */
+.thumbnail {
+    height: 450px;
+}
+@media screen and (max-width: 992px) {
+ .thumbnail {
+    height: 100%;
+}   
+}
 
 
  /* PAGE CONTACT*/
@@ -112,9 +153,7 @@ hr {
      color: white;
      padding: 5px;
  }
- h2 {
-     color: #be1742;
- }
+
 
  /* EFFETS IMAGES CARTE */
  
